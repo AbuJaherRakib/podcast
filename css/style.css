@@ -18,6 +18,12 @@ h1,h2,h3,h4,h5,h6,p{
     line-height: 0.8;
 }
 /* ===== navbar part start here ===== */
+.navbar{
+    padding: 26px 0;
+}
+.navbar-brand{
+    margin-right: 0;
+}
 .nav-item{
     padding: 0 15px;
 }
