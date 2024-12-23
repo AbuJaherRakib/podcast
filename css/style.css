@@ -52,3 +52,83 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 /* ===== navbar part end here ===== */
+
+/* == banner section start === */
+#banner{
+    margin-top: 48px;
+}
+.banner-left h1{
+    font-weight: 600;
+    line-height: 76px; font-size: 56px; font-family: "Commissioner", serif;
+    color: #13132C;
+
+}
+.banner-left p{
+    font-family: "Commissioner", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color:  #898998;
+    padding-right: 215px;
+    margin-top: 16px;
+}
+.banner-button{
+    display: flex;
+    column-gap: 16px;
+    margin-top: 27px;
+}
+.banner-button button{
+    background-color: #7678ED;
+    color: #fff;
+    font-family: "Commissioner", serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 18px 40px;
+    border: 1px solid #7678ED;
+    transition: all linear 0.3s;
+    
+}
+.banner-button button:hover{
+    background-color: transparent;
+    color: #7678ED;
+    border: 1px solid #7678ED;
+}
+.number-users{
+    display: flex;
+    column-gap: 24px;
+    margin-top: 36px;
+}
+#banner span strong{
+    color:  #F18701;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
+    font-family: "Commissioner", serif;
+}
+#banner span{
+    font-family: "Commissioner", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    color: #13132C;
+
+}
+.banner-right img{
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+    overflow: hidden;
+}
+.banner-right .banner-feature img{
+    width: 220px;
+    height: 240px;
+}
+.banner-right .banner-feature{
+    top: 45%;
+    left: -100px;
+    
+
+}
+
+
+/* == banner section end === */
