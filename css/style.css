@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* font-family: "Commissioner", serif; */
+}
+ol,ul{
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+
+}
+a{
+    text-decoration: none;
+
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin-bottom: 0;
+    line-height: 0.8;
+}
+/* ===== navbar part start here ===== */
+.nav-item{
+    padding: 0 15px;
+}
+.nav-link{
+    font-family: "Commissioner", serif;
+    color: #62636C;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 16px;
+    text-transform: capitalize;
+    transition: all linear 0.3s;
+}
+.nav-link:hover{
+   color:gold
+
+}
+.navbar-button{
+    background-color: #7678ED;
+    color: #fff;
+    font-family: "Commissioner", serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 16px 32px;
+    border: none;
+    
+}
+
+/* ===== navbar part end here ===== */
