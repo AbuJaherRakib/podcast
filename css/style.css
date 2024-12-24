@@ -364,6 +364,22 @@ h1,h2,h3,h4,h5,h6,p{
     border: 2px solid #f2f2f2;
     font-size: 12px;
 }
+.tabs-more-button button{
+    margin-top: 48px;
+    background-color: #7678ED;
+    color: #fff;
+    font-family: "Commissioner", serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 18px 40px;
+    border: 1px solid #7678ED;
+    transition: all linear 0.3s;
+}
+.tabs-more-button button:hover{
+    background-color: transparent;
+    color: #7678ED;
+    border: 1px solid #7678ED;
+}
 
 /* --popular section end here--- */
 
