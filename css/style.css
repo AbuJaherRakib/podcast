@@ -182,3 +182,85 @@ h1,h2,h3,h4,h5,h6,p{
     margin-top: 16px;
 }
 /* === podcast section end here === */
+#service{
+    padding: 114px 0;
+    /* background-color: #fff; */
+}
+.service-left h4{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 70px; /* 145.833% */
+    text-transform: capitalize;
+    color: #13132C;
+    font-family: "Commissioner", serif;
+}
+.service-left p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; /* 145.833% */
+    /* text-transform: capitalize; */
+    color: #898998;
+    font-family: "Commissioner", serif;
+    padding-right: 130px;
+    margin-top: 16px;
+}
+.service-left ul{
+   
+    margin-top: 32px;
+}
+.service-left li{
+    display: flex;
+    column-gap: 12px;
+    
+    /* justify-content: center; */
+    align-items: center;
+    
+    margin-bottom: 16px;
+}
+.service-left li .service-checkbox{
+    height: 24px;width: 24px;
+    background: #F18701;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    font-size: 12px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+.service-left li span{
+    font-family: "Commissioner", serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: normal;
+    color: #13132C;
+}
+.service-button{
+    margin-top: 40px;
+}
+.service-button button{
+    background-color: #7678ED;
+    color: #fff;
+    font-family: "Commissioner", serif;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 18px 40px;
+    border: 1px solid #7678ED;
+    transition: all linear 0.3s;
+    
+}
+.service-button button:hover{
+    background-color: #0a0ed4;
+    color: #fff;
+}
+
+/* --service section start here--- */
+
+/* --service section end here--- */
+/* --service section start here--- */
+/* --service section end here--- */
+/* --service section start here--- */
+/* --service section end here--- */
+/* --service section start here--- */
+/* --service section end here--- */
