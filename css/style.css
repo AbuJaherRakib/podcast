@@ -182,6 +182,8 @@ h1,h2,h3,h4,h5,h6,p{
     margin-top: 16px;
 }
 /* === podcast section end here === */
+
+/* --- service section start here---  */
 #service{
     padding: 114px 0;
     /* background-color: #fff; */
@@ -255,11 +257,14 @@ h1,h2,h3,h4,h5,h6,p{
     color: #fff;
 }
 
-/* --service section start here--- */
+
 
 /* --service section end here--- */
-/* --service section start here--- */
-/* --service section end here--- */
+
+
+/* --popular section start here--- */
+
+/* --popular section end here--- */
 /* --service section start here--- */
 /* --service section end here--- */
 /* --service section start here--- */
