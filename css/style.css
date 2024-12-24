@@ -256,15 +256,118 @@ h1,h2,h3,h4,h5,h6,p{
     background-color: #0a0ed4;
     color: #fff;
 }
-
-
-
 /* --service section end here--- */
 
 
 /* --popular section start here--- */
+#popular{
+    padding-top: 64px;
+    padding-bottom: 64px;
+    background: #FAFAFA;
+}
+#popular .popular-header h4{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 70px; /* 145.833% */
+    text-transform: capitalize;
+    color: #13132C;
+    font-family: "Commissioner", serif;
+    text-align: center;
+}
+.popular-header p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+    color: #898998;
+    text-align: center;
+    font-family: "Commissioner", serif;
+    margin-top: 24px;
+    padding-right: 30px;
+}
+.popular-tabs-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 48px;
+    column-gap: 16px;
+}
+.popular-tabs-button button{
+    background-color: transparent;
+    color: #898998;
+    font-family: "Commissioner", serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    padding: 16px 32px;
+    border: 1px solid #DDD;
+    transition: all linear 0.3s;
+}
+.popular-tabs-button button:hover{
+    background-color: #7678ED;
+    color: #fff;
+    border: 1px solid #7678ED;
+}
+.popular-item{
+    background: #fff;
+    padding: 24px;
+    box-sizing: border-box;
+    margin-top: 48px;
+}
+.popular-image{
+    height: 234px;
+    overflow: hidden;
+}
+.popular-image img{
+    width: 100%;
+    height: 234px;
+    object-fit: cover;
+    
+}
+.left-content h6{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px; /* 150% */
+    color: #13132C;
+    font-family: "Commissioner", serif;
+    margin-top: 24px;
+
+}
+.left-content ul{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px; /* 150% */
+    color: #898998;
+    font-family: "Commissioner", serif;
+    margin-top: 10px;
+    column-gap: 16px;
+}
+.left-content ul li:last-child{
+    position: relative;
+}
+.left-content ul li:last-child::after{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: -8px;
+    transform: translateY(-50%);
+    width: 4px;height: 4px;
+    border-radius: 50%;
+    background-color: #7678ED;
+}
+.play-button button{
+    width: 48px;height: 48px;
+    border-radius: 50%;
+    color: #7678ED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid #f2f2f2;
+    font-size: 12px;
+}
 
 /* --popular section end here--- */
+
+
 /* --service section start here--- */
 /* --service section end here--- */
 /* --service section start here--- */
