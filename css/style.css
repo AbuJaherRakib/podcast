@@ -561,5 +561,42 @@ h1,h2,h3,h4,h5,h6,p{
 
 /* --plan section end here--- */
 
+/* --testimonial section start here--- */
+#testimonial{
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background: #FAFAFA;
+}
+#testimonial h4{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 70px; /* 145.833% */
+    text-transform: capitalize;
+    color: #13132C;
+    font-family: "Commissioner", serif;
+    
+}
+.testimonial-button button{
+    background-color: #7678ED;
+    color: #fff;
+    font-family: "Commissioner", serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 18px 40px;
+    border: 1px solid #7678ED;
+    transition: all linear 0.3s;
+}
+.testimonial-button button:hover{
+    background-color: transparent;
+    color: #7678ED;
+    border: 1px solid #7678ED;
+}
+/* --testimonial section end here--- */
+
+
+/* --service section start here--- */
+/* --service section end here--- */
+
+
 /* --service section start here--- */
 /* --service section end here--- */
